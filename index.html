@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>ישלצניק</title>
+        <link
+            rel="icon"
+            href="https://upload.wikimedia.org/wikipedia/he/7/75/Logo_yashlatz.png"
+        />
+        <link
+            href="https://fonts.googleapis.com/css?family=Varela Round"
+            rel="stylesheet"
+        />
+        <link
+            href="https://fonts.googleapis.com/css?family=Suez One"
+            rel="stylesheet"
+        />
+        <link
+            href="https://fonts.googleapis.com/css?family=Butcherman"
+            rel="stylesheet"
+        />
+        <link
+            href="https://fonts.googleapis.com/css?family=Chewy"
+            rel="stylesheet"
+        />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Miriam+Libre:wght@700&display=swap"
+            rel="stylesheet"
+        />
+        <link href="yashlatznik.css" rel="stylesheet" />
+    </head>
+    <body>
+        <h1 id="title">?כמה נראה לך שאתה ישלצניק</h1>
+        <div id="all_set">
+            <canvas
+                id="question"
+                border="1"
+                cellspacing="1"
+                width="800"
+                height="350"
+            >
+            </canvas>
+            <div id="answer1" class="answer" onclick="clickAnswer(1)">
+                <p class="pAnswer">תשובה 1</p>
+            </div>
+            <div id="answer2" class="answer" onclick="clickAnswer(2)">
+                <p class="pAnswer">תשובה 2</p>
+            </div>
+            <div id="answer3" class="answer" onclick="clickAnswer(3)">
+                <p class="pAnswer">תשובה 3</p>
+            </div>
+            <p id="again" onclick="setUpGame()">עוד פעם? לחץ כאן</p>
+            <h2 id="yashlatznik"></h2>
+        </div>
+        <p id="copyright">
+            <a
+                href="https://lh3.googleusercontent.com/-bfIh24tXoYQ/X0PTFbTtZrI/AAAAAAAABHQ/PKrqM7XLAaoKVvaRpi4gbW4oWFgVTe4AQCK8BGAsYHg/s0/2020-08-24.png"
+                >© David Hexter & Noam Daniel Lewin</a
+            >
+        </p>
+    </body>
+    <script src="yashlatznik.js"></script>
+</html>
